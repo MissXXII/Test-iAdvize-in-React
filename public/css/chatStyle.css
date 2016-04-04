@@ -1,0 +1,64 @@
+html, body{
+    margin : 0px;
+    padding : 0px;
+}
+.container{
+    width: 100%;
+}
+section {
+    width: 40%;
+    display: inline-block;
+    margin: auto 4%;
+}
+
+.chatWindow {
+    overflow-x: scroll;
+    border-radius: 5px;
+    border: 1px lightgrey solid;
+    width: 100%;
+    height: 20em;
+    padding: 5px 5px;
+}
+.chatWindow > span {
+    display : inline-block;
+    word-wrap: break-word;
+    width: 99%;
+    font-family: verdana;
+    margin : 0px auto 5px auto;
+}
+
+p {
+    word-wrap: break-word;
+    display:inline;
+    margin : 0px;
+}
+
+.sender {
+    /*green iAdvize :)*/
+    color : #1bc74e;
+}
+
+.recipient {
+    /*blue iAdvize :)*/
+    color : #0099ff;
+}
+
+.time {
+    color : lightgrey;
+}
+
+h2 {
+    font-family : verdana;
+    margin : 0;
+    padding : 0;
+    text-align: center;
+}
+
+.messageToSend {
+    width: 80%;
+    font-family: verdana;
+}
+
+.sendButton {
+    width: 18%;
+}
